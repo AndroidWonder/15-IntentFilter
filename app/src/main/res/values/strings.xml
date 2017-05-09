@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">IntentFilter</string>
+    <string name="app_name">IntentFilter</string>
+    <string name="options">Options</string>
+    <string name="context">Context</string>
+</resources>
