@@ -3,11 +3,15 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+	android:background="#ff15baea"
     >
 <TextView  
     android:layout_width="match_parent" 
     android:layout_height="wrap_content" 
-    android:text="@string/hello"
+    android:text="Press a Button"
+	android:textColor="#FFFF0000"
+	android:textSize="20sp"
+	android:gravity="center"
     />
 <Button 
 	android:text="Start Activity" 
