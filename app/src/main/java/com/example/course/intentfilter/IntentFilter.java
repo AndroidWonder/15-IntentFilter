@@ -26,7 +26,7 @@ public class IntentFilter extends Activity {
         button.setOnClickListener(
         		new OnClickListener(){
         			public void onClick(View v){
-        				  Intent intent = new Intent("ACTION_CS402");
+        				  Intent intent = new Intent("ACTION_CS480");
         			        startActivity(intent); 
         			}
         		});
@@ -37,7 +37,7 @@ public class IntentFilter extends Activity {
         		new OnClickListener(){
         			public void onClick(View v){
         				Uri uri = Uri.parse("sms:123456");
-        				  Intent intent = new Intent("ACTION_CS402", uri);
+        				  Intent intent = new Intent("ACTION_CS480", uri);
         			        startActivity(intent); 
         			}
         		});

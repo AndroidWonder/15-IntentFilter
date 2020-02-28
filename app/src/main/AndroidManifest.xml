@@ -26,7 +26,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <action
-                    android:name="ACTION_CS402"
+                    android:name="ACTION_CS480"
                      />
             </intent-filter>
         </activity>
@@ -38,7 +38,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
 
                 <action
-                    android:name="ACTION_CS402"
+                    android:name="ACTION_CS480"
                     />
                <data android:scheme="sms" />
             </intent-filter>
