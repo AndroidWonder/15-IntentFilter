@@ -14,7 +14,6 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -25,9 +24,8 @@
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <action
-                    android:name="ACTION_CS480"
-                     />
+                <action android:name="ACTION_CS480" />
+
             </intent-filter>
         </activity>
         
@@ -37,9 +35,8 @@
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT" />
 
-                <action
-                    android:name="ACTION_CS480"
-                    />
+                <action android:name="ACTION_CS480" />
+
                <data android:scheme="sms" />
             </intent-filter>
         </activity>
